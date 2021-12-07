@@ -35,54 +35,23 @@
   color: white;
   list-style-type: none;
   padding: 0rem 1rem;
-
   position: absolute;
   top: var(--navbar-size);
   left: 0;
   height: calc(100vh - var(--navbar-size));
-  width: 100vh; /* version-M */
-  display: none;
+  width: 100vw; /* version-M */
+  display: flex;
   flex-direction: column;
-  justify-content: space-between;
-  /* gap: .5rem; */ 
+  justify-content: space-around;
 }
 
 .navbar-list > li {
-    font-family:'Courier New', Courier, monospace;
+ font-family:'Courier New', Courier, monospace;
+ text-align: center;
+ padding: 1rem 0rem;
+ width: 100%;
+ color: white
+
 }
 
 
-/* .navbar .logo a {
-  color: black;
-  font-size: 1.25rem;
-  font-weight: bold;
-} */
-
-
-/* opciones navegacion */
-/* 
-.navbar-list {
-  margin: 0;
-  width: 200px;
-  background-color: black;
-  color: white;
-  list-style-type: none;
-  padding: 0;
-  position: absolute;
-  top: var(--navbar-size);
-  left: 0;
-  height: calc(100vh - var(--navbar-size));
-   display: none;
-
-  flex-direction: column;
-  /* justify-content: space-between; 
-  gap: .5rem;
-}
-*/
-
-.navbar-list a {
-  padding: 1rem 0;
-  width: 100%;
-  display: inline-block;
-  color: aliceblue;
-} */
