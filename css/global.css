@@ -1,0 +1,27 @@
+@font-face {
+  font-family: brand;
+  src: url('../fonts/wrestel.ttf');
+}
+
+ :root {
+  --navbar-size: 50px;
+/*   --burger-width: 25px;
+  --navbar-padding: 5px; */
+}
+
+
+section {
+  padding: 3rem 2rem;
+}
+
+.logo {
+  font-family: brand;
+  font-style: normal;
+  font-size: x-large;
+  padding: 2rem;
+  /* margin: 2em; */
+}
+
+section img {
+  width: 100%;
+}
