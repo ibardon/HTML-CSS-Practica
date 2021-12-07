@@ -11,14 +11,14 @@
 
 
 section {
-  padding: 3rem 2rem;
+  padding: 1rem 2rem;
 }
 
-.logo {
+.logo a {
   font-family: brand;
   font-style: normal;
   font-size: x-large;
-  padding: 2rem;
+  padding: 0 1rem;
   /* margin: 2em; */
 }
 

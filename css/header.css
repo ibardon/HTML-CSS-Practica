@@ -1,12 +1,11 @@
 .header {
   /* margin-top: calc(var(--navbar-size) + 50px); */
-  background-image: url(../img/header-bg.jpg);
+  background-image: url(../img/banner/spiderman.jpg);
   background-repeat: no-repeat;
   background-position: top center;
   background-size: cover;
   background-color: #474646;
   height: 100vh;
-
   position: relative;
 }
 
