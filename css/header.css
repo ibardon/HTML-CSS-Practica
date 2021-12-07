@@ -1,6 +1,7 @@
 .header {
-  /* margin-top: calc(var(--navbar-size) + 50px); */
-  background-image: url(../img/banner/spiderman.jpg);
+  margin-top: var(--navbar-size);
+  background-image: url(../img/banner/background.jpg);
+  transform: rotateY(180deg);
   background-repeat: no-repeat;
   background-position: top center;
   background-size: cover;

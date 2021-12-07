@@ -1,3 +1,10 @@
+.logo a {
+  font-family: brand-aux;
+  font-style: normal;
+  /* font-size: x-large; */
+  padding: 0 1rem;
+  /* margin: 2em; */
+}
 .navbar {
     background-color: black;
     height: var(--navbar-size);
@@ -14,13 +21,34 @@
  .navbar .logo {
   flex: 1;
   display: flex;
-  /* justify-content: center; */
+  justify-content: center;
+  text-decoration: none;
   /* padding-right: var(--burger-width); */
 }
 
 
-.navbar a, .navbar-list {
+.navbar-list {
   text-decoration: none;
+  margin: 0;
+  width: 200px;
+  background-color: black;
+  color: white;
+  list-style-type: none;
+  padding: 0rem 1rem;
+
+  position: absolute;
+  top: var(--navbar-size);
+  left: 0;
+  height: calc(100vh - var(--navbar-size));
+  width: 100vh; /* version-M */
+  display: none;
+  flex-direction: column;
+  justify-content: space-between;
+  /* gap: .5rem; */ 
+}
+
+.navbar-list > li {
+    font-family:'Courier New', Courier, monospace;
 }
 
 
@@ -47,13 +75,10 @@
    display: none;
 
   flex-direction: column;
-  /* justify-content: space-between; */
+  /* justify-content: space-between; 
   gap: .5rem;
 }
-
-.navbar-list .navbar-item {
-  text-align: center;
-}
+*/
 
 .navbar-list a {
   padding: 1rem 0;

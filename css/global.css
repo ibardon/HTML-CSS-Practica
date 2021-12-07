@@ -1,12 +1,17 @@
+/* Logo Previo
 @font-face {
   font-family: brand;
   src: url('../fonts/wrestel.ttf');
-}
+} */
 
+@font-face {
+  font-family: brand-aux;
+  src: url('../fonts/bastian.ttf');
+}
  :root {
-  --navbar-size: 50px;
-/*   --burger-width: 25px;
-  --navbar-padding: 5px; */
+  --navbar-size: 75px;
+/*   --burger-width: 25px; */
+  --navbar-padding: 5px; 
 }
 
 
@@ -14,13 +19,7 @@ section {
   padding: 1rem 2rem;
 }
 
-.logo a {
-  font-family: brand;
-  font-style: normal;
-  font-size: x-large;
-  padding: 0 1rem;
-  /* margin: 2em; */
-}
+
 
 section img {
   width: 100%;
