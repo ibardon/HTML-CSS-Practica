@@ -1,7 +1,6 @@
-.header {
+header {
   margin-top: var(--navbar-size);
   background-image: url(../img/banner/background.jpg);
-  transform: rotateY(180deg);
   background-repeat: no-repeat;
   background-position: top center;
   background-size: cover;
@@ -10,24 +9,44 @@
   position: relative;
 }
 
-.main-title,
-.tagline {
+
+.main-title .slugline {
   position: absolute;
   left: 0;
-  background-color: rgba(255, 255, 255, .5);
+/*   background-color: rgba(0, 0, 0, 0.5); */
+  color: whitesmoke;
   padding: 1rem;
 }
 
-.main-title {
-  bottom: 50%;
+h1 {
+    display: block;
+    font-size: 2em;
+    margin-block-start: 0.67em;
+    margin-block-end: 0.67em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 60px;
+    font-weight: 400;
+    font-weight: bold;
+    color: whitesmoke;
+    text-align: right;
+    padding: 0px 25px;
 }
 
-.tagline {
-  top: 50%;
-  text-shadow: 2px 2px 2px rgba(255, 255, 255, .5),
-    2px -2px 2px rgba(255, 255, 255, .5),
-    -2px 2px 2px rgba(255, 255, 255, .5),
-    -2px -2px 2px rgba(255, 255, 255, .5);
+.main-title  em {
+  text-transform: capitalize;
+  font-style: normal;
+  text-shadow: 2px 2px 2px rgba(5, 64, 255, 0.5),
+    2px -2px 2px rgba(5, 64, 255, 0.5),
+    -2px 2px 2px rgba(5, 64, 255, 0.5),
+    -2px -2px 2px rgba(5, 64, 255, 0.5);
+
+}
+
+.slugline {
+position: var(--navbar-size) 
+
 }
 
 /* @media (min-width: 768px) {

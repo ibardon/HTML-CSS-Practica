@@ -1,6 +1,7 @@
 .logo a {
   font-family: brand-aux;
   font-style: normal;
+  color:white;
   /* font-size: x-large; */
   padding: 0 1rem;
   /* margin: 2em; */
@@ -26,21 +27,21 @@
   /* padding-right: var(--burger-width); */
 }
 
+/* Opciones */
 
 .navbar-list {
   text-decoration: none;
   margin: 0;
-  width: 200px;
   background-color: black;
   color: white;
   list-style-type: none;
-  padding: 0rem 1rem;
+  padding: 0rem 0rem;
   position: absolute;
   top: var(--navbar-size);
   left: 0;
   height: calc(100vh - var(--navbar-size));
-  width: 100vw; /* version-M */
-  display: flex;
+  display: none;
+  /*   display: inline; */
   flex-direction: column;
   justify-content: space-around;
 }
@@ -48,10 +49,16 @@
 .navbar-list > li {
  font-family:'Courier New', Courier, monospace;
  text-align: center;
+ align-items: center;
  padding: 1rem 0rem;
  width: 100%;
  color: white
 
+}
+
+.navbar-item {
+    margin: 0;
+    padding: 0;
 }
 
 
