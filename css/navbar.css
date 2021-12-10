@@ -1,10 +1,11 @@
 .logo a {
   font-family: brand-aux;
   font-style: normal;
-  color:white;
+  color:red;
   /* font-size: x-large; */
   padding: 0 1rem;
   /* margin: 2em; */
+  text-decoration: none;
 }
 .navbar {
     background-color: black;
@@ -14,7 +15,7 @@
     position: fixed;
     display: flex;
     align-items: flex-start;
-    z-index: 1;
+    z-index: 9999;
     padding: 0 var(--navbar-padding);
 
 }
@@ -27,15 +28,47 @@
   /* padding-right: var(--burger-width); */
 }
 
+/* burger menu */
+
+.navbar .burger-label {
+  display: block;
+  width: var(--burger-width);
+  height: 24px;
+  position: relative;
+  cursor: pointer;
+}
+
+.navbar .burger-label:before {
+  content: "";
+  box-shadow: 0 5px 0 0 white,
+    0 12px 0 0 white,
+    0 19px 0 0 white;
+  width: var(--burger-width);
+  height: 3px;
+  position: absolute;
+}
+
+#burger-checkbox {
+  width: 25px;
+  height: 25px;
+  margin: 0;
+  display: none;
+}
+
+#burger-checkbox:checked~.navbar-list {
+  display: flex;
+}
+
+
 /* Opciones */
 
 .navbar-list {
-  text-decoration: none;
+  font-family:'Courier New', Courier, monospace;
   margin: 0;
-  background-color: black;
+  background-color: grey;
   color: white;
   list-style-type: none;
-  padding: 0rem 0rem;
+  padding: 1rem 1rem;
   position: absolute;
   top: var(--navbar-size);
   left: 0;
@@ -43,22 +76,25 @@
   display: none;
   /*   display: inline; */
   flex-direction: column;
-  justify-content: space-around;
+  justify-content: flex-start;
 }
 
-.navbar-list > li {
- font-family:'Courier New', Courier, monospace;
- text-align: center;
- align-items: center;
- padding: 1rem 0rem;
- width: 100%;
- color: white
-
-}
 
 .navbar-item {
     margin: 0;
     padding: 0;
 }
 
+.navbar-list > li {
+ text-decoration: none;
+ text-align: center;
+ align-items: center;
+ padding: 1rem 0rem;
+ width: 100%;
+ color: white;
+}
 
+.navbar-list a {
+  text-decoration: none;
+  color:white
+}

@@ -11,13 +11,15 @@
 
  :root {
   --navbar-size: 75px;
-/*   --burger-width: 25px; */
+  --burger-width: 25px;
   --navbar-padding: 5px; 
 }
 
 
 section {
   padding: 1rem 2rem;
+  background-color: black;
+  color: white;
 }
 
 

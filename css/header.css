@@ -1,26 +1,25 @@
 header {
-  margin-top: var(--navbar-size);
   background-image: url(../img/banner/background.jpg);
   background-repeat: no-repeat;
   background-position: top center;
   background-size: cover;
-  background-color: #474646;
-  height: 100vh;
   display: flex;
   flex-direction: column;
   flex:1;
+  justify-content: space-around;
+  height: 100vh;
+
 }
 
 
 .main-title .slugline {
-/*   position: absolute; */
-  left: 0;
-/*   background-color: rgba(0, 0, 0, 0.5); */
+  background-color: rgba(0, 0, 0, 0.5);
   color: whitesmoke;
   padding: 1rem;
+  text-align: center;
 }
 
-h1 {
+header h1 {
     font-size: 2em;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 60px;
@@ -30,6 +29,7 @@ h1 {
     padding: 0px 15px;
     align-items: center;   
 }
+
 
 .main-title  em {
   text-transform: capitalize;
@@ -41,17 +41,9 @@ h1 {
 
 }
 
-.slugline {
- display: block;
 
-
-}
-
-/* @media (min-width: 768px) {
-
-  .main-title,
-  .tagline {
-    left: 50%;
-    background-color: transparent;
+ @media (min-width: 768px) {
+  .main-title em {
+    font-style: oblique;
   }
-} */
+} 

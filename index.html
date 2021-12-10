@@ -10,71 +10,191 @@
     <link rel="stylesheet" href="./css/global.css">
     <link rel="stylesheet" href="./css/navbar.css">
     <link rel="stylesheet" href="./css/header.css">
+    <link rel="stylesheet" href="./css/main.css">
+    <link rel="stylesheet" href="./css/grid.css">
+
 
 </head>
 
 <body>
     <!-- Navegacion -->
     <nav class="navbar">
+        <input type="checkbox" id="burger-checkbox">
+
+        <label for="burger-checkbox" class="burger-label"></label>
         <span class="logo">
             <a href="#header">MayorSamWest</a>
         </span>
 
         <ul class="navbar-list">
-            <li class="navbar-item"><a href="#nosotros"></a>Nosotros</li>
-            <li class="navbar-item"><a href="#tdt"></a>TDT</li>
-            <li class="navbar-item"><a href="#novedades"></a>Estrenos</li>
-            <li class="navbar-item"><a href="#premium"></a>Premium</li>
-            <li class="navbar-item"><a href="#devices"></a>Dispositivos</li>
-            <li class="navbar-item"><a href="#7ud"></a>7UD</li>
-            <li class="navbar-item"><a href="#micuenta"></a>Mi cuenta</li>
+            <li class="navbar-item"><a href="#contenidos">Contenidos</a></li>
+            <li class="navbar-item"><a href="#TDT">Salvame Deluxe</a></li>
+            <li class="navbar-item"><a href="#estrenos">Estrenos</a></li>
+            <li class="navbar-item"><a href="#premium">Premium</a></li>
+            <li class="navbar-item"><a href="#devices">Dispositivos</a></li>
+            <li class="navbar-item"><a href="#7ud">7UD</a></li>
+            <li class="navbar-item"><a href="#micuenta">Mi cuenta</a></li>
         </ul>
     </nav>
 
     <header id="header" class="main-title">
         <h1>
-            <spam>los mejores</spam> <em>contenidos</em><br>
-            <spam> en</spam> <em>directo</em> <br>
+            <spam>los mejores</spam> <em>contenidos</em>
+            <spam> en</spam> <em>directo</em>
             <spam>y</spam> <em>bajo de manda</em>
 
         </h1>
         <p class="slugline">
-            Más de 400 contenidos semanales disponibles.
+            Más de 60 retrasmisiones semanales
         </p>
     </header>
 
-    <section id="nosotros">
-        <p>orem ipsum dolor sit, amet consectetur adipisicing elit. Error, magnam deleniti. Dolor nam quasi enim omnis
-            error, laborum cum illum inventore provident veniam, consectetur fuga consequuntur debitis accusantium
-            obcaecati. Necessitatibus!</p>
+
+
+
+    <section id="contenidos">
+        <h1>
+            Somos Rodeo, Somos Expectáculo
+        </h1>
+        <p>Traemos hasta tu casa los mejores espectáculos del mundo</p>
+        <div class="catalog-text">
+            <ol class="features">
+                <li><em>Monta de Caballos</em></li>
+                <li>Rodeo desde Texas</li>
+                <li>Derribo de becerros</li>
+                <li>Laceo desde Oregon</li>
+                <li>Jaripeo</li>
+            </ol>
+        </div>
+        <div class="catalog images">
+            <div class="oferta">
+                <figure>
+                    <img src="/img/rodeo-horse-barrel-3578531-1024x682.jpg" alt="rodeo">
+                    <figcaption>Rodeo Gringo</figcaption>
+                </figure>
+            </div>
+            <div class="oferta">
+                <figure>
+                    <img src="/img/rodeo.jpg" alt="rodeo">
+                    <figcaption>Vamos Manolo!!</figcaption>
+                </figure>
+            </div>
+            <div class="oferta">
+                <figure>
+                    <img src="/img/jaripeo.jpg" alt="rodeo">
+                    <figcaption>Jaripeo Wey!!</figcaption>
+                </figure>
+            </div>
+        </div>
+
     </section>
+
+
+
     <section id="devices">
+        <h1>¿Donde puedes vernos?</h1>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio, minima exercitationem facere ipsum, possimus
             aperiam eaque aut officiis dolores quibusdam eos? Culpa nostrum eligendi reiciendis nihil! Autem, aperiam?
             Aperiam, unde!</p>
+
+        <div class="devices-text">
+            <ol class="features">
+                <li>Olvida suscrirte</li>
+                <li>Tu dispositivo</li>
+                <li>Tiene menos de 500px</li>
+                <li>Es un Nokia 3310???</li>
+                <li>Tu no tienes pasta para el servicio</li>
+            </ol>
+        </div>
+        <div class="catalog devices">
+            <div class="dev">
+                <figure>
+                    <img src="/img/devices.png" alt="PCMAC">
+                    <figcaption>Navegador Web PC/MAC</figcaption>
+                </figure>
+            </div>
+
+            <div class="dev">
+                <figure>
+                    <img src="/img/devices.png" alt="SmartvSamsung">
+                    <figcaption>SmarTV Samsung</figcaption>
+                </figure>
+            </div>
+
+            <div class="dev">
+                <figure>
+                    <img src="/img/devices.png" alt="SmartvLG">
+                    <figcaption>SmarTV LG</figcaption>
+                </figure>
+            </div>
+
+            <div class="dev">
+                <figure>
+                    <img src="/img/devices.png" alt="SmartvTurcas">
+                    <figcaption>SmarTV Turcas</figcaption>
+                </figure>
+            </div>
+
+            <div class="dev">
+                <figure>
+                    <img src="/img/devices.png" alt="AndroidTV">
+                    <figcaption>Android TV</figcaption>
+                </figure>
+            </div>
+
+            <div class="dev">
+                <figure>
+                    <img src="/img/devices.png" alt="Apple">
+                    <figcaption>Apple<figcaption>
+                </figure>
+            </div>
+        </div>
+
+
     </section>
+
+
     <section id="TDT">
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam, fugiat, totam sint rem temporibus unde
-            officia pariatur harum quos, eligendi ab. Quo quibusdam vero amet soluta error, sint eius magni?</p>
+        <h1>¿Te perdiste Salvame?</h1>
+        <p>Tu cerebro lo agradecerá y un cachorrito encontrará una casa de acogida.<br>
+            <em><b>GRACIAS</b></em>
+        <h2>no, no nosotros no emitimos eso</h2>
+        </p>
     </section>
     <section id="estrenos">
-        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Minus quas deserunt dicta facere blanditiis, odit
+        <h1> Nos partimos la crisma</h1>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Illum magnam soluta, libero voluptate dignissimos,
+            doloribus assumenda facere consectetur, vitae ducimus maiores harum! Vero, inventore reprehenderit. Dolor
+            totam officia nam temporibus.</p>
+        <h2> Somos tan cafres que subimos al toro hasta que reventamos</h2>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Minus quas deserunt dicta facere blanditiis,
+            odit
             nulla accusantium eveniet hic, nesciunt excepturi culpa, eligendi alias possimus odio vitae? Ab, omnis
             minima?</p>
     </section>
     <section id="u7d">
-        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Minus quas deserunt dicta facere blanditiis, odit
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Minus quas deserunt dicta facere blanditiis,
+            odit
             nulla accusantium eveniet hic, nesciunt excepturi culpa, eligendi alias possimus odio vitae? Ab, omnis
             minima?</p>
     </section>
-    <section id="premium">
-        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Minus quas deserunt dicta facere blanditiis, odit
-            nulla accusantium eveniet hic, nesciunt excepturi culpa, eligendi alias possimus odio vitae? Ab, omnis
-            minima?</p>
+    <section id="premium" class="two-colums">
+        <div class="container">
+            <div class="itemcont item1">bannerPremium</div>
+            <div class="itemcont item2">sidebar</div>
+            <div class="itemcont item3">main</div>
+            <div class="itemcont item4">4</div>
+            <div class="itemcont item5">5</div>
+            <div class="itemcont item6">footer1</div>
+            <div class="itemcont item7">footer2</div>
+            <div class="itemcont item8">footer3</div>
+
+        </div>
     </section>
     <section id="contacto">
         <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Corporis harum dolores laboriosam neque.
-            Perferendis est voluptatum quos, unde molestias quibusdam nemo praesentium, aliquid asperiores alias porro
+            Perferendis est voluptatum quos, unde molestias quibusdam nemo praesentium, aliquid asperiores alias
+            porro
             deleniti! Dicta, alias id.</p>
     </section>
 </body>
