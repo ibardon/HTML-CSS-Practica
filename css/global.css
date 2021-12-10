@@ -10,14 +10,14 @@
 }
 
  :root {
-  --navbar-size: 75px;
+  --navbar-size: 50px;
   --burger-width: 25px;
   --navbar-padding: 5px; 
 }
 
 
 section {
-  padding: 1rem 2rem;
+  padding: var(--navbar-size) 2rem;
   background-color: black;
   color: white;
 }

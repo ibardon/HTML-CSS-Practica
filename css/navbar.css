@@ -36,6 +36,7 @@
   height: 24px;
   position: relative;
   cursor: pointer;
+  align-self: center;
 }
 
 .navbar .burger-label:before {
@@ -97,4 +98,29 @@
 .navbar-list a {
   text-decoration: none;
   color:white
+}
+
+
+@media (min-width: 768px) {
+
+.navbar .burger-label {
+  display: none;
+}
+
+.navbar-list{
+  flex-direction: row;
+  flex-wrap: nowrap;
+  top: 0;
+  background-color: black;
+  height: var(--navbar-size);
+  width: 100%;
+  top: 0;
+  position: relative;
+  display: flex;
+  justify-content: space-evenly;
+  z-index: 1;
+  padding: 0 var(--navbar-padding);
+ }
+
+
 }

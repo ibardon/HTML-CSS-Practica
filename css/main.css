@@ -41,7 +41,6 @@ figcaption{
     justify-content:space-around;
     align-items: center;
     padding: 1rem 1rem;
-
 }
 
 .dev {
@@ -52,7 +51,9 @@ figcaption{
         display: flex
     }
  
+
 @media (min-width: 768px) {
+
 
 .catalog-images {
     display: flex;

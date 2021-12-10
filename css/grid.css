@@ -17,15 +17,15 @@
       /*        grid-auto-rows: 100px; */
       gap: 5px;
       grid-template-areas:
-          "head    head  head"
-          "item2    item3  item4"
-          "item5    item6  item1";
+          "pic1    pic2  pic3"
+          "pic4    pic5  pic6"
+          "pic7    pic8  pic9";
+    object-fit:contain;
   }
 
   .item1 {
-      grid-area: head;
+      grid-area: pic1;
    }
-
 
 /* 
 @media (max-width: 768px) {
