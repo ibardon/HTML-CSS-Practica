@@ -17,7 +17,7 @@
 
 
 section {
-  padding: var(--navbar-size) 2rem;
+padding: var(--navbar-size) 2rem;
   background-color: black;
   color: white;
 }
@@ -27,4 +27,3 @@ section {
 section img {
   width: 100%;
 }
-
