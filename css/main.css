@@ -52,6 +52,7 @@ figcaption{
     }
  
 
+
 @media (min-width: 768px) {
 
 
@@ -75,31 +76,12 @@ figcaption{
     max-width: 100%;
 }
 
-/*     .dev{
-    flex-direction: row;
-    flex:1;
-    justify-content:space-between;
-    align-items: center;
-    } */
 
-/*      .dev .img {
-        padding: 0rem 0rem;
-        text-shadow: 2px 2px 2px rgba(255, 255, 255, 0.5),
-                     2px -2px 2px rgba(255, 255, 255, 0.5),
-                    -2px 2px 2px rgba(255, 255, 255, 0.5),
-                    -2px -2px 2px rgba(255, 255, 255, 0.5);
-    } 
- */
-    .catalog-text, .devices-text{
+.catalog-text, .devices-text{
         display: none
     }
-/*     .oferta, .dev {
-    display: flex;    
-} */
+
 
 }
 
-/* .oferta,.dev{
-    display: flex;
-    }
- */
+

@@ -1,0 +1,36 @@
+.footer{
+    display: flex;
+    flex: 1;
+    flex-wrap: wrap;
+    flex-direction: row;
+/*     width: 100vh; */
+    justify-content: center;
+}
+
+aside{
+    display: flex;
+}
+
+.social-list {
+    display: flex;
+}
+.column a{
+    display: flex;
+/*     position: relative; */
+/*     flex-wrap: wrap; */
+    flex-direction: row;
+    flex:50%;
+    padding: 10px;
+    height: 50px;
+}
+
+footer {
+  background-color: black;
+  color: white;
+}
+
+footer a {
+    color:white;
+    text-decoration: none;
+}
+
